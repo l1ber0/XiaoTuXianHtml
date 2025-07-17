@@ -1,0 +1,280 @@
+/* 头尾各个页面相同的样式 */
+/* 版心 */
+.wrapper {
+  margin: 0 auto;
+  width: 1240px;
+}
+
+/* 首页内容的样式 */
+/* 顶栏的格式 */
+.shotcut{
+    height: 52px;
+    background-color: #333;
+}
+
+.shotcut .wrapper{
+    display: flex;
+    justify-content: end;
+    height: 52px;
+}
+
+.shotcut ul{
+    display: flex;
+    line-height: 52px;
+}
+
+.shotcut li a{
+    padding:0 15px;
+    border-right: 1px solid #999999;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: PingFang SC;
+}
+
+/* 去掉最后一个的右边框 */
+.shotcut li:last-child a{
+    border: none;
+}
+/*  */
+
+.shotcut li .iconfont{
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.shotcut li .login{
+    color: #5EB69C;
+}
+/* 顶栏结束 */
+
+/* 头部开始 */
+.header{
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    height: 88px;
+}
+
+.header .logo{
+    margin-right: 41px;
+    width: 200px;
+    height: 88px;
+}
+.header .logo a{
+    display: block;
+    width: 200px;
+    height: 88px;
+    background-image: url(../images/logo.png);
+    font-size: 0;
+}
+
+.nav{
+    margin-top: 33px;
+    margin-right: 28px;
+}
+
+.header .nav ul{
+    display: flex;
+}
+
+.header .nav ul a{
+    padding-bottom: 10px;
+    margin-right: 47px;
+    font-style: PingFang SC;
+    font-size: 16px;
+    color: #333333;
+}
+
+.header .nav ul a:hover{
+    border-bottom: 2px solid #5EB69C;
+}
+
+.header .search{
+    display: flex;
+    margin-top: 33px;
+    margin-right: 45px;
+    width: 170px;
+    height: 34px;
+    border-bottom: 2px solid #F4F4F4;
+}
+
+.header .search .iconfont{
+    margin-right: 8px;
+    font-size: 18px;
+    color: #CCCCCC;
+}
+
+.header .search input{
+    /* 浏览器默认生效input默认宽度 */
+    flex: 1;
+    width: 0;
+}
+
+.search input::placeholder{
+    font-style: PingFang SC;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+.header .cart{
+    position: relative;
+    margin-top: 32px;
+}
+
+.header .cart .iconfont{
+   font-size: 24px;
+}
+
+.header .cart i{
+    position: absolute;
+    left: 15px;
+    top: 1px;
+    padding: 0 6px;
+    height: 15px;
+    background-color: #E26237;
+    border-radius: 8px;
+    font-style: PingFang SC;
+    font-size: 14px;
+    color: #FFFEFE;
+}
+
+/* 头部结束 */
+
+/* 底部开始 */
+.footer{
+    height: 581.5px;
+    background-color:  #F5F5F5;
+}
+
+.footer .wrapper .service{
+    padding: 60px 0;
+    height: 178px;
+}
+
+.footer .service ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .service ul li{
+  display: flex;
+  height: 58px;
+  width: 190px;
+}
+
+.service li h5{
+  margin-right: 20px;
+  width: 58px;
+  height: 58px;
+  background-image: url(../images/sprite.png);
+}
+
+.service li p{
+  line-height: 58px;
+  font-size: 28px;
+  font-style: PingFang SC;
+  color: #333333 100%;
+}
+
+.service li:nth-child(2) h5{
+  background-position: 0 -58px;
+}
+
+.service li:nth-child(3) h5{
+  background-position: 0 -116px;
+}
+
+.service li:nth-child(4) h5{
+  background-position: 0 -174px;
+}
+
+.footer .wrapper .help{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  height: 302.5px;
+}
+
+.footer .wrapper .help .left{
+  display: flex;
+}
+
+.footer .wrapper .help .left dl{
+  margin-right: 84px;
+}
+
+.footer .wrapper .help .left dt{
+  margin-bottom: 30px;
+  font-family: PingFangSC-Regular;
+  font-size: 18px;
+  color: #333333;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.footer .wrapper .help .left  dd{
+  margin-bottom: 10.5px;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #969696;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 400;
+  }
+
+.footer .wrapper .help .left span{
+  color: #5EB69C;
+}
+
+.footer .wrapper .help .right ul{
+  display: flex;
+}
+
+.footer .wrapper .help .right li:first-child{
+  margin-right: 55px;
+}
+
+.footer .wrapper .help .right ul .firstPhoto{
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.footer .wrapper .help .right ul p{
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #969696;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.footer .wrapper .copyright{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer .wrapper .copyright p a{
+  margin-right: 10px;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #A1A1A1;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.footer .wrapper .copyright p{
+  padding-bottom: 5px;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #A1A1A1;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+/* 底部结束 */
+

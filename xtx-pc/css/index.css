@@ -1,0 +1,535 @@
+/* 首页样式 */
+.banner{
+    height: 500px;
+}
+
+.banner .wrapper{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    background-color: #fff;
+}
+
+.banner .pic{
+    display: flex;
+    width: 3720px;
+}
+
+.subnav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.subnav li{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 12px;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+}
+.smallone{
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: left;
+    font-weight: 500;
+}
+
+.bigone{
+    margin-right: 14px;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.banner ol{
+    display: flex;
+    position: absolute;
+    bottom: 17px;
+    right: 16px;
+}
+
+.banner ol li{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.banner ol i{
+    margin: 4px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+/* 选中状态 */
+
+.goods .wrapper .title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 42px;
+}
+
+.goods .wrapper .title .left{
+    display: flex;
+}
+
+
+.goods .wrapper .title .left h4{
+    margin-right: 35px;
+    font-family: PingFangSC-Regular;
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.goods .wrapper .title  p{
+    align-self: flex-end;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #A1A1A1;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.goods .wrapper .title .right a{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #A1A1A1;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.goods .wrapper .title .right span{
+    margin-left: 10px;
+}
+
+.goods .wrapper .bd ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods .wrapper .bd li{
+    width: 304px;
+    height: 404px;
+    background-color: #EEF9F4;
+}
+
+.goods .wrapper .bd .pic{
+    width: 304px;
+    height: 304px;
+}
+
+.goods .wrapper .bd .txt{
+    text-align: center;
+}
+
+.goods .wrapper .bd .txt p{
+    padding-top: 17.5px;
+    padding-bottom: 8.5px;
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.goods .wrapper .bd .txt h4{
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #AA2113;
+    letter-spacing: 1.1px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.goods .wrapper .bd .txt h4 span{
+    margin-left: 3px;
+    font-family: PingFangSC-Regular;
+    font-size: 22px;
+    color: #AA2113;
+    letter-spacing: 1.1px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+
+.popularRecommendations .wrapper .title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 42px;
+}
+
+.popularRecommendations .wrapper .title .left{
+    display: flex;
+}
+
+
+.popularRecommendations .wrapper .title .left h4{
+    margin-right: 35px;
+    font-family: PingFangSC-Regular;
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.popularRecommendations .wrapper .title  p{
+    align-self: flex-end;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #A1A1A1;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.popularRecommendations .wrapper .bd ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popularRecommendations .wrapper .bd li{
+    width: 304px;
+    height: 404px;
+    background-color: #EEF9F4;
+}
+
+.popularRecommendations .wrapper .bd .pic{
+    width: 304px;
+    height: 304px;
+}
+
+.popularRecommendations .wrapper .bd .txt{
+    text-align: center;
+}
+
+.popularRecommendations .wrapper .bd .txt p{
+    padding-top: 17.5px;
+    padding-bottom: 8.5px;
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.popularRecommendations .wrapper .bd .txt h4{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #A1A1A1;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.popularBrands .wrapper{
+    background-color: #F5F5F5;
+    height: 468px;
+}
+
+.popularBrands .wrapper{
+    overflow: hidden;
+    height: 468px;
+}
+
+
+.popularBrands .wrapper .title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 42px;
+}
+
+.popularBrands .wrapper .title .left{
+    display: flex;
+}
+
+
+.popularBrands .wrapper .title .left h4{
+    margin-right: 35px;
+    font-family: PingFangSC-Regular;
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.popularBrands .wrapper .title  p{
+    align-self: flex-end;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #A1A1A1;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.popularBrands .button{
+    display: flex;
+    right: 0;
+    bottom: -25px;
+    position: absolute;
+}
+
+.popularBrands .button a{
+    color: #fff;
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+.popularBrands .button .prev{
+    
+    background-color: #ddd;
+}
+
+.popularBrands .button .next{
+    background-color: #00be9a;
+}
+
+.popularBrands .bd ul{
+    justify-content: space-between;
+    display: flex;
+}
+
+.popularBrands .bd ul li{
+    height: 306px;
+    width: 244px;
+}
+
+.freshFood{
+    height: 732px;
+}
+
+.freshFood .wrapper{
+    overflow: hidden;
+    height: 732px;
+}
+
+.freshFood .wrapper .title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    height: 42px;
+}
+
+.freshFood .wrapper .title .left h4{
+    margin-right: 35px;
+    font-family: PingFangSC-Regular;
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.freshFood .wrapper .title .right{
+    display: flex;
+}
+
+.freshFood .wrapper .title .right ul{
+    display: flex;
+    margin-right: 65px;
+}
+
+.freshFood .wrapper .title .right li{
+    margin-right: 20px;
+}
+
+.freshFood .wrapper .title .right li p{
+    align-self: flex-end;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.freshFood .wrapper .title .right a{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #A1A1A1;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.freshFood .wrapper .title .right span{
+    margin-left: 10px;
+}
+
+.freshFood .wrapper .body{
+    display: flex;
+}
+
+.freshFood .wrapper .body .left{
+    width: 248px;
+    height: 610px;
+}
+
+.freshFood .wrapper .body .left img{
+    width: 248px;
+    height: 610px;
+}
+
+.freshFood .wrapper .body .right{
+    display: flex;
+    width: 968px;
+    height: 610px;
+}
+
+.freshFood .wrapper .body .right ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.freshFood .wrapper .body .right li{
+    width: 242px;
+    height: 305px;
+    padding: 10px 21px 0;
+}
+
+.freshFood .wrapper .body .right li a img{
+    width: 190px;
+    height: 171px;
+}
+
+.freshFood .wrapper .body .right li a p{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.freshFood .wrapper .body .right li a .info{
+    margin-top: 14px;
+    margin-bottom: 7px;
+    height: 60px;
+    line-height: 19px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.freshFood .wrapper .body .right li a .price{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #AF2F22;
+    letter-spacing: 0;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.freshFood .wrapper .body .right li a .price span{
+   font-family: PingFangSC-Regular;
+    font-size: 22px;
+    color: #AF2F22;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.topic{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+
+.topic .wrapper{
+    height: 400px;
+}
+
+.topic .wrapper .title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    height: 42px;
+}
+
+.topic .wrapper .title .left h4{
+    margin-right: 35px;
+    font-family: PingFangSC-Regular;
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.topic .wrapper .title .right{
+    display: flex;
+}
+
+.topic .wrapper .topic-bd ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic .wrapper .topic-bd li{
+    width: 405px;
+    height: 355px;
+}
+
+.topic .wrapper .topic-bd li img{
+    width: 405px;
+    height: 288px;
+}
+
+.topic .topic-bd .txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    width: 405px;
+    height: 67px;
+    font-size: 14px;
+    color: #666;
+}
+
+.topic .topic-bd .txt .left{
+    display: flex;
+}
+
+.topic-bd .left p{
+    margin-right: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0;
+    text-align: right;
+    font-weight: 400;
+}
+
+.topic-bd .txt .left p:nth-child(1) i{
+    color: #AA2113;
+}
+
+
+
